@@ -16,7 +16,7 @@ const Benefits = ({ title, desc, benefits }) => {
                     const { title, icon, decs, img, items } = elem;
                     return (
                         <div key={index}>
-                            <div className="flex justify-center items-start leading-9 tracking-wide bg-gray-100 md:h-[680px] my-5 rounded-xl">
+                            <div className="flex justify-center items-start leading-9 tracking-wide bg-gray-100 md:h-[700px] my-5 rounded-xl">
                                 <div className="md:p-5 p-2 md:px-4 text-center rounded-md space-y-4 relative w-full ">
                                     <div className='flex justify-center items-center text-primary hover:text-black absolute top-[-34px] left-2/4 -translate-x-2/4'>
                                         {icon && icon}
@@ -30,7 +30,7 @@ const Benefits = ({ title, desc, benefits }) => {
                                         {items && items.length > 0 && (
                                             <ul className="text-sm text-ternary list-disc list-inside text-left md:space-y-1 text-[15px]">
                                                 {items.map((item, i) => (
-                                                    <li key={i} className='h-16 font-normal border-b border-[#0000003b] md:p-2 flex items-center last-of-type:border-none'>
+                                                    <li key={i} className='h-16 md:h-full font-normal border-b border-[#0000003b] md:p-2 flex items-center last-of-type:border-none'>
                                                         <span className="flex items-start gap-2" ><IoIosArrowDroprightCircle className='flex flex-shrink-0 text-secondary' size={18}/>{item}</span>
                                                         </li>
                                                 ))}

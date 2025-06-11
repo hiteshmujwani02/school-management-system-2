@@ -119,7 +119,7 @@ para="With relying on outdated methods, institutes have to face problems like co
 title="Benefits Of School Bus Tracking Management System"
 desc=""
 benefits={benefits} />
-<WhyChooseSection title={"Why Choose Our School Bus Tracking Management System?"}
+<WhyChooseSection iconUrl={false} title={"Why Choose Our School Bus Tracking Management System?"}
                     featureMobileTitle={""}
                     featureMobiledesc={""} Choose={Choose} />
 

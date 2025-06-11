@@ -26,7 +26,7 @@ const WhyNeed = ({ values, title, para }) => {
                 {values.map((elem: any, index: any) => {
                     const { title, decs } = elem;
                     return (
-                        <div key={index} className={` rounded-lg flex flex-col justify-start items-start leading-9 tracking-wide bg-white xl:h-60 md:h-50 p-4 gap-2 px-3`} >
+                        <div key={index} className={` overflow-y-scroll rounded-lg flex flex-col justify-start items-start leading-9 tracking-wide bg-white xl:h-60 md:h-50 p-4 gap-2 px-3`} >
                             <h3 className="text-md  text-ternary font-bold text-center ">{title}</h3>
                             <p className='w-1/4 h-[1px] bg-black'></p>
                             <p className="text-base text-ternary ">{decs}</p>

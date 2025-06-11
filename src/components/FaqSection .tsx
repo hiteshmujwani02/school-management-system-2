@@ -122,10 +122,10 @@ export default function FaqSection({ faqDataOne, faqDataTwo }) {
           </div>
 
           <div
-            className={`font-nunito ${
+            className={`font-nunito flex flex-col  items-center ${
               hasOne && hasTwo
-                ? "lg:flex gap-10"
-                : "flex justify-center"
+                ? "lg:flex-row lg:gap-10"
+                : " justify-center"
             }`}
           >
             {hasOne && (
