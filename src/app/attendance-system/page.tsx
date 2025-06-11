@@ -125,7 +125,7 @@ const attendanceSystem = () => {
                     title="Benefits Of Attendance Management System"
                     desc="With features like real-time attendance with the help of automated tools and centralized data to boost accuracy, this system lets schools jump from registers to modern screens for roll calls. "
                     benefits={benefits} />
-                <WhyChooseSection title={" Why Choose MasterSoft’s Learning Management Software (LMS)?"}
+                <WhyChooseSection iconUrl={true} title={" Why Choose MasterSoft’s Learning Management Software (LMS)?"}
                     featureMobileTitle={"Smart Integrations "}
                     featureMobiledesc={"With the integration of biometric devices, RFID, and facial recognition tools, we offer smart attendance management systems to schools that make all operations effortless and seamless."} Choose={Choose} />
 

@@ -183,7 +183,10 @@
         }
     ],
     "faqDataTwo": [
-        
+        {
+        "title": "Is the integration of the system with an existing school management software possible?",
+        "desc": "This system is designed for flexibility and promotes integration through smooth data flow with diverse management systems, including attendance management, student records, or communication modules. "
+        },
         {
             "title": "How can you justify the security of the data collected by the system?",
             "desc": "The system is based on a secure Cloudflare system, which makes data secure. Further, practices like role-based access also play a vital role in restricting the data to become accessible for non-authoritative people. "
@@ -196,10 +199,7 @@
             "title": "Does the system allow us to generate fuel consumption reports?",
             "desc": "Yes, these kinds of reports are easy to access with this system. In addition, it also supports many other operations, including student attendance, driver behavior, trip history and vehicle usage. "
         }
-        ,{
-            "title": "Is the integration of the system with an existing school management software possible?",
-            "desc": "This system is designed for flexibility and promotes integration through smooth data flow with diverse management systems, including attendance management, student records, or communication modules. "
-        },
+        ,
         {
             "title": "How long does it take to implement the system?",
             "desc": "It takes 1 to 2 weeks for small-to-mid-sized schools while an enterprise level school can take more than a month. The positive thing here is that we personally take pride in offering everything from setup and training to deployment and support."

@@ -1,6 +1,7 @@
+import Image from "next/image";
 import React from "react";
 
-const WhyChooseSection = ({ featureMobileTitle, featureMobiledesc, title,Choose }) => {
+const WhyChooseSection = ({ featureMobileTitle, featureMobiledesc, title,Choose, iconUrl }) => {
   return (
     <section className="py-16 px-4 max-w-7xl mx-auto font-nunito space-y-10">
       <h2 className="text-3xl font-bold text-primary">
@@ -21,7 +22,7 @@ const WhyChooseSection = ({ featureMobileTitle, featureMobiledesc, title,Choose 
                   : ""
                 }`}
             >
-              <div className="text-3xl mb-4">{feature.icon}</div>
+              {iconUrl ? <Image height={30} width={40} alt={feature.title} src={feature.icon} className="mb-4"/> : <div className="text-3xl mb-4">{feature.icon}</div>}
               <h3 className="text-xl font-semibold mb-2">{feature.title}</h3>
               <p className="text-base">{feature.description}</p>
             </div>

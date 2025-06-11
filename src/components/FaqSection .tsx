@@ -124,7 +124,7 @@ export default function FaqSection({ faqDataOne, faqDataTwo }) {
           <div
             className={`font-nunito ${
               hasOne && hasTwo
-                ? "lg:flex gap-20"
+                ? "lg:flex gap-10"
                 : "flex justify-center"
             }`}
           >
@@ -137,10 +137,10 @@ export default function FaqSection({ faqDataOne, faqDataTwo }) {
                 {faqDataOne.map((elem, index) => (
                   <div
                     key={index}
-                    className="bg-white cursor-pointer w-full my-3"
+                    className="bg-white cursor-pointer w-full my-3 rounded-lg"
                   >
                     <div
-                      className={`flex items-start justify-center w-full px-4 py-4 text-base font-medium text-left md:items-center md:px-6 md:text-lg ${
+                      className={`flex items-start justify-center w-full px-4 py-3 text-base font-medium text-left md:items-center md:px-6 md:text-lg rounded-lg ${
                         currentCountfaqDataOne === index ? "bg-white" : ""
                       }`}
                       onClick={() =>
@@ -195,10 +195,10 @@ export default function FaqSection({ faqDataOne, faqDataTwo }) {
                 {faqDataTwo.map((elem, index) => (
                   <div
                     key={index}
-                    className="bg-white cursor-pointer w-full my-3"
+                    className="bg-white cursor-pointer w-full my-3 rounded-lg"
                   >
                     <div
-                      className={`flex items-start justify-center w-full px-4 py-4 text-base font-medium text-left md:items-center md:px-6 md:text-lg ${
+                      className={`flex items-start justify-center w-full px-3 py-3 text-base font-medium text-left md:items-center md:px-6 md:text-lg rounded-lg ${
                         currentCountfaqDataTwo === index ? "bg-white" : ""
                       }`}
                       onClick={() =>
@@ -231,7 +231,7 @@ export default function FaqSection({ faqDataOne, faqDataTwo }) {
                       </svg>
                     </div>
                     <div
-                      className={`px-6 text-black text-sm md:text-base transition-all duration-300 overflow-hidden ${
+                      className={`px-6 text-black text-sm md:text-base transition-all duration-300 overflow-hidden  ${
                         currentCountfaqDataTwo === index
                           ? "max-h-96 py-4"
                           : "max-h-0"

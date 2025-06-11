@@ -30,7 +30,7 @@ const GridSection = ({ values, title, para ,para1 }) => {
                     const { title, decs,decs2 } = elem;
                     return (
                         <div key={index} className='group  mx-auto text-center  text-ternary border md:border-t-8 md:border-b-8 border-b-2 border-t-2 rounded-2xl border-primary'>
-                            <div className='transition-all duration-500 ease-in-out group-hover:bg-primary group-hover:text-white xl:h-60 lg:h-64 sm:h-48 sm:p-1 p-3 flex flex-col justify-center gap-1 items-center'>
+                            <div className='transition-all duration-500 ease-in-out group-hover:bg-[#112e52] group-hover:text-white xl:h-60 lg:h-64 sm:h-48 sm:p-1 p-3 flex flex-col justify-center gap-1 items-center'>
                             <h3 className="text-md font-bold pt-2">{title}</h3>
                             <p className='w-1/4 h-[1px] group-hover:bg-white bg-black '></p>
                             <p className="text-base  ">{decs}</p>

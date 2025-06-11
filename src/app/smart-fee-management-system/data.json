@@ -161,6 +161,11 @@
         }
     ],
       "faqDataOne": [
+        
+        {
+          "title": "How does the system let us handle fee collection for optional services like transport or hostel?",
+          "desc": "Creating optional add-on fee categories, such as transport, hostel, exam fees, etc., will work for you. The system auto-generates the correct invoices based on each student’s selected services."
+      },
         {
             "title": "How secure is our financial data on this system?",
             "desc": "By applying enterprise-grade security protocols, including data encryption, firewall protection, role-based access control, and regular vulnerability testing, we make it hard for unauthorized entities to reach your financial data."
@@ -176,10 +181,6 @@
         {
             "title": "Can I customize fee structures for different student groups?",
             "desc": "Creating custom fee categories and structures for various classes, transport routes, or even individual students is possible with this system. "
-        },
-        {
-            "title": "Is the system helpful in terms of handleing refunds or fee adjustments?",
-            "desc": "There is a need for a few clicks when it comes to handling refunds and adjustments. Processing partial or full refunds, shifting payments to other heads, or adjusting them in future billing cycles as per your refund policy is all possible through this system. "
         }
     ],
     "faqDataTwo": [
@@ -199,10 +200,10 @@
         ,{
             "title": "Is training provided for school staff to use this system?",
             "desc": "While it i not difficult to use this system, we still give them video tutorials and hand-to-hand guides about using the system. Plus, our support is available whenever you need extra help. "
-        },
-        {
-            "title": "How does the system let us handle fee collection for optional services like transport or hostel?",
-            "desc": "Creating optional add-on fee categories, such as transport, hostel, exam fees, etc., will work for you. The system auto-generates the correct invoices based on each student’s selected services."
-        }
+        },{
+          "title": "Is the system helpful in terms of handleing refunds or fee adjustments?",
+          "desc": "There is a need for a few clicks when it comes to handling refunds and adjustments. Processing partial or full refunds, shifting payments to other heads, or adjusting them in future billing cycles as per your refund policy is all possible through this system. "
+      }
+        
     ]   
     }
