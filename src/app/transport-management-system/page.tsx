@@ -118,8 +118,7 @@ const TransportManagement = () => {
 
         <WhyChooseSection
           title="Why Choose Our Transport Management System?"
-          featureMobileTitle=""
-          featureMobiledesc=""
+          iconUrl={false}
           Choose={Choose}
         />
 
