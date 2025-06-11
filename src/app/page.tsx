@@ -266,7 +266,7 @@ export default function Page (){
         <meta property="og:site_name" content="Vigorous IT" />
         <meta property="og:type" content="website" />
         <meta property="og:description" content="Using the latest web frameworks, Vigorous IT offers web app development services that turn ideas into profitable business solutions." />
-        <meta property="og:image" content="https:/" />
+        <meta property="og:image" content="https://school-management-system-2.vercel.app" />
 
         <meta name="twitter:card" content="summary_large_image" />
         <meta property="twitter:domain" content="vigorousit.com" />
