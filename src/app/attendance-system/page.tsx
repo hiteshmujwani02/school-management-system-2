@@ -64,7 +64,7 @@ const attendanceSystem = () => {
                             />
                         </div>
                         <div className=" lg:w-1/2 w-full lg:flex lg:justify-center  ">
-                            <Image src={'/images/RFID-banner.png'} alt='' width={500} height={200} />
+                            <Image src={'/images/attendance-management/attendance-management-home.webp'} alt='' width={500} height={200} />
                         </div>
                     </div>
                 </div>
@@ -76,7 +76,7 @@ const attendanceSystem = () => {
                     paraThree=""
                     paraFour=""
                     btnName="Request Demo"
-                    img="/images/Student-Attendance-System.webp" type={1}
+                    img="/images/attendance-management/attendance-management-about.webp" type={1}
                     bulletPoints={[
                         "Ensuring hardware compatibility  with RFID scanners and biometric devices)",
                         "Handling the process of training staff faculty to use the system efficiently",

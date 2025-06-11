@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import { uploadcareLoader } from '@uploadcare/nextjs-loader'
+// import { uploadcareLoader } from '@uploadcare/nextjs-loader'
 
 const About = ({ title, paraOne, paraTwo, paraThree, paraFour,  img, type,bulletPoints = []  }:any) => {
     return (

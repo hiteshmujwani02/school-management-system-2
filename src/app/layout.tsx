@@ -50,7 +50,7 @@ export default function RootLayout({
         </noscript>
 
         <TalktoModel />
-
+        
         <Footer />
         <div className="text-sm font-semibold  border-t border-gray-400 py-4 flex justify-center bg-primary font-nunito  ">
           {/* <div className="md:flex block justify-between 2xl:w-2/3 xl:w-4/5 sm:px-0 px-2 md:gap-8 md:space-y-0 space-y-5 items-start font-nunito text-sm mx-auto"> */}
