@@ -6,7 +6,7 @@ import "./globals.css";
 import Link from "next/link";
 import Image from "next/image";
 // import Footer from "@/components/Footer";
-// import TalktoModel from "@/components/TalktoModel";
+import TalktoModel from "@/components/TalktoModel";
 import Footer from "@/components/Footer";
 
 const geistSans = Geist({
@@ -49,7 +49,7 @@ export default function RootLayout({
           ></iframe>
         </noscript>
 
-        {/* <TalktoModel /> */}
+        <TalktoModel />
 
         <Footer />
         <div className="text-sm font-semibold  border-t border-gray-400 py-4 flex justify-center bg-primary font-nunito  ">

@@ -1,3 +1,5 @@
+"use client"
+
 import MobileNav from "../components/MobileNav";
 import DesktopNav from "../components/DesktopNav";
 import { useState, useEffect } from "react";
